@@ -1,0 +1,40 @@
+{
+  "name": "webster-backend",
+  "version": "1.0.0",
+  "description": "SOS team final project Ucode IT Academy",
+  "main": "webster.js",
+  "scripts": {
+    "start": "node webster.js",
+    "server": "nodemon webster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vStesh/webster-backend.git"
+  },
+  "author": "Volodymyr Steshenko, Kyrylo Ovsiannik, Eugen Semeniuk, Yaroslav Myroniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vStesh/webster-backend/issues"
+  },
+  "homepage": "https://github.com/vStesh/webster-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.13.0",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "mongoose-serial": "^1.0.4",
+    "nodemailer": "^6.7.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  }
+}

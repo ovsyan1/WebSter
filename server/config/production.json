@@ -1,0 +1,5 @@
+{
+  "port": 5050,
+  "protocol": "http",
+  "host": "photoapp.store"
+}
